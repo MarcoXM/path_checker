@@ -4,8 +4,6 @@ on:
   schedule:
     # Runs at 8:20 AM EST (13:20 UTC) on workdays (Mon-Fri)
     - cron: '20 13 * * 1-5'
-    # Runs at 8:20 AM EDT (12:20 UTC) on workdays (Mon-Fri)
-    - cron: '20 12 * * 1-5'
   workflow_dispatch: # Allows you to run this workflow manually from the Actions tab
 
 jobs:
